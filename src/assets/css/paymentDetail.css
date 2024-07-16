@@ -1,0 +1,212 @@
+.paymentDtl-wrapp .successMsg{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+    background: var(--Primary-50, #EBF9FA);
+    color: var(--Secondary-600, #1FADA8);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 153.846% */
+    text-transform: capitalize;    
+    margin:32px 0px;
+}
+.paymentDtl-wrapp .wrapper-data .flex-mn{
+    display: flex;
+    flex-direction: column;
+}
+.paymentDtl-wrapp .wrapper-data .flex-mn .rowt{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #CCCCCC;
+    border-bottom-style: dashed;
+}
+.paymentDtl-wrapp .wrapper-data .flex-mn .rowt .big-txt{
+    color: var(--Black-950, #0D0D0D);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.paymentDtl-wrapp .wrapper-data .flex-mn .rowt .value{
+    color: var(--Black-950, #0D0D0D);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    text-transform: capitalize;
+}
+
+.paymentDtl-wrapp .wrapper-data .payWithOption{
+    color: var(--Black-600, #666);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 184.615% */
+    text-transform: capitalize;
+    padding-bottom: 32px;
+    display: block;
+}
+ .billing-add{
+    color: var(--Black-500, #050505);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 111.111% */
+    text-transform: capitalize;
+    padding-bottom: 24px;
+    display: block;
+}
+.main-data-sml{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+.main-data-sml span{
+    color: var(--Black-600, #666);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    text-transform: capitalize;
+}
+
+.checkoutForm form .middleCont .topicC {
+    display: block;
+    padding-top: 0;
+    color: var(--Black-500, #050505);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: capitalize;
+    padding-bottom: 32px;
+}
+
+
+@media (min-width:1200px){
+    .paymentDtl-wrapp .successMsg{
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        gap: 20px;
+        border-radius: 6px;
+        background: var(--Primary-50, #EBF9FA);
+        color: var(--Secondary-600, #1FADA8);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 153.846% */
+        text-transform: capitalize;    
+        margin:40px 0px;
+    }
+    .paymentDtl-wrapp .wrapper-data .flex-mn{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+    .paymentDtl-wrapp .wrapper-data .flex-mn .rowt{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+        border-left: 1px solid;
+        justify-content: center;
+        align-items: flex-start;
+        border-left-style: dashed ;
+        padding-bottom: 0;
+        border-color: #CCC;
+        border-bottom: none;
+    
+    }
+    .paymentDtl-wrapp .wrapper-data .flex-mn .rowt .big-txt{
+        color: var(--Black-950, #0D0D0D);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 125% */
+        text-transform: uppercase;
+        padding-bottom: 12px;
+    }
+    
+    .paymentDtl-wrapp .wrapper-data .flex-mn .rowt .value{
+        color: var(--Black-950, #0D0D0D);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 142.857% */
+        text-transform: capitalize;
+    }
+    
+    .paymentDtl-wrapp .wrapper-data .payWithOption{
+        color: var(--Black-600, #666);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 184.615% */
+        text-transform: capitalize;
+        padding-bottom: 40px;
+        display: block;
+    }
+     .billing-add{
+        color: var(--Black-500, #050505);
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 125% */
+        text-transform: capitalize;
+        padding-bottom: 24px;
+        display: block;
+    }
+    .main-data-sml{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+    .main-data-sml span{
+        color: var(--Black-600, #666);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        text-transform: capitalize;
+    }
+    
+    .checkoutForm form .middleCont .topicC {
+        display: block;
+        padding-top: 0;
+        color: var(--Black-500, #050505);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: capitalize;
+        padding-bottom: 32px;
+    }
+}
